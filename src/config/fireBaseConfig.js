@@ -4,6 +4,8 @@ import { getAuth } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
+const all = import.meta.env;
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyB7FH8ekWRPMNRImE2E2i3JdLYjZnswlVA",
